@@ -3,7 +3,7 @@ var playlist = {
   Kanye: 'Workout Plan'
 }
 
-function updatePlaylist(playlist, cardib, bodackyellow) {
+function updatePlaylist(playlist, artist, song) {
   playlist[artist] = song
  return playlist
 }

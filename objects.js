@@ -3,7 +3,7 @@ var playlist = {
   Kanye: 'Workout Plan'
 }
 
-function updatePlaylist(music, cardib, bodackyellow) {
+function updatePlaylist(playlist, cardib, bodackyellow) {
   playlist[artist] = song
  return playlist
 }
@@ -13,4 +13,3 @@ function removeFromPlaylist(playlist, artist) {
 
   return playlist
 }
-
